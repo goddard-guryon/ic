@@ -211,9 +211,9 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/south_campus.jpg);
+  	background-image: url(../img/banner3.jpg);
     background-color: rgba(0, 0, 0, 0.01);
-    background-size: auto;
+    background-size: cover;
   	vertical-align: middle;
 }
 
