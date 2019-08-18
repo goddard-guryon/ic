@@ -287,9 +287,9 @@ http://www.templatemo.com/tm-506-tinker
                             <p></p>
                             <div class="filter-categories">
                                 <ul class="project-filter">
-                                    <li class="filter" data-filter="branding"><span>The Conference</span></li>
-                                    <li class="filter" data-filter="graphic"><span>The College</span></li>
-                                    <li class="filter" data-filter="nature"><span>The Department</span></li>
+                                    <li class="filter" data-filter="branding" onclick="make_visible('concept')"><span>The Conference</span></li>
+                                    <li class="filter" data-filter="graphic" onclick="make_visible('college')"><span>The College</span></li>
+                                    <li class="filter" data-filter="nature" onclick="make_visible('dept')"><span>The Department</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -298,35 +298,43 @@ http://www.templatemo.com/tm-506-tinker
                         <div class="projects-holder-3">
                             <div class="projects-holder">
                               <div class="row" style="margin-right: -100px">
-<!--About the International Conference-->
-                                <div class="col-sm-4 col-md-12">
+                                <div id="intro">
+                                  <div class="col-sm-4 col-md-12">
+                                  <h4>CLICK ON THE BUTTONS AT THE LEFT TO READ MORE ABOUT THE CONFERENCE</h4>
+                                  </div>
+                              </div>
+                                <div id="concept" style="display: none">
+                                  <div class="col-sm-4 col-md-12">
                                   <h4>CONCEPT NOTE</h4>
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    The Department of Biochemistry, Shivaji College & South Campus (University of Delhi) takes pride and immense pleasure in inviting participants from across the globe to attend the International Conference on “Frontiers in Biochemistry & Biotechnology: Strategies to Combat Human Diseases” to be held on February 12-13, 2020 in New Delhi, India.
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    This conference aims to bring together distinguished scientists, researchers, teaching faculty, post graduate and undergraduate students from around the world on one platform to discuss and debate new developments and scientific advancements that will impact future strategies to intervene with various debilitating human diseases, ranging from a mechanistic understanding to prevention, diagnosis, treatment, prognosis and eradication. The conference will span disciplines in Biochemistry, Molecular Biology, Cell Biology, Proteomics, Structural Biology, Clinical Biochemistry, Drug discovery and design, Biotechnology and related fields. This conference will unfold before the scientific community the research trends in a repertoire of areas related to human diseases that plague the humanity worldwide.
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    The scientific program includes keynote address, plenary lectures, invited lectures, oral and poster presentations in four sessions for better insight of human diseases like Cancer, Cardiovascular diseases, Infectious diseases (Viral, Malaria, Tuberculosis, Leishmaniasis), Blindness, Genetic and Liver diseases along with Molecular mechanism, Diagnosis and Therapies. This conference aims to inspire students and teachers as well as benefit academic researchers and professionals from the industry. The conference program will be designed to provide ample opportunities to network and establish scientific collaborations across the globe.
+                                  </div>
+                              </div>
+                                <div id="college" style="display: none">
+                                  <div class="col-sm-4 col-md-12">
+                                    <h4>ABOUT SHIVAJI COLLEGE</h4>
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    Shivaji College is a premier institution in West Delhi, accredited with grade ‘A’ by NAAC. It was established in 1961 by Hon’ble Dr Panjabrao Deshmukh, Union Minister for Agriculture. Shivaji College was ranked as one of the top 10 science colleges of the country in a survey conducted by India Today in 2017. The college offers twenty undergraduate courses in Science, Commerce and Humanities, a self-financing course in Bachelors in Business Economics, three post-graduate courses, and add-on courses in German and French. Various environment friendly practices in the green campus of Shivaji College has attracted the community at large. The logo of Shivaji College symbolizes knowledge and vision of prosperous life for all mankind.
+                                  </div>
                                 </div>
-                                <div class="col-md-12 col-sm-12">
-                                  The Department of Biochemistry, Shivaji College & South Campus (University of Delhi) takes pride and immense pleasure in inviting participants from across the globe to attend the International Conference on “Frontiers in Biochemistry & Biotechnology: Strategies to Combat Human Diseases” to be held on February 12-13, 2020 in New Delhi, India.
-                                </div>
-                                <div class="col-md-12 col-sm-12">
-                                  This conference aims to bring together distinguished scientists, researchers, teaching faculty, post graduate and undergraduate students from around the world on one platform to discuss and debate new developments and scientific advancements that will impact future strategies to intervene with various debilitating human diseases, ranging from a mechanistic understanding to prevention, diagnosis, treatment, prognosis and eradication. The conference will span disciplines in Biochemistry, Molecular Biology, Cell Biology, Proteomics, Structural Biology, Clinical Biochemistry, Drug discovery and design, Biotechnology and related fields. This conference will unfold before the scientific community the research trends in a repertoire of areas related to human diseases that plague the humanity worldwide.
-                                </div>
-                                <div class="col-md-12 col-sm-12">
-                                  The scientific program includes keynote address, plenary lectures, invited lectures, oral and poster presentations in four sessions for better insight of human diseases like Cancer, Cardiovascular diseases, Infectious diseases (Viral, Malaria, Tuberculosis, Leishmaniasis), Blindness, Genetic and Liver diseases along with Molecular mechanism, Diagnosis and Therapies. This conference aims to inspire students and teachers as well as benefit academic researchers and professionals from the industry. The conference program will be designed to provide ample opportunities to network and establish scientific collaborations across the globe.
-                                </div>
-<!--About Shivaji College-->
-                                <div class="col-sm-4 col-md-12">
-                                  <h4>ABOUT SHIVAJI COLLEGE</h4>
-                                </div>
-                                <div class="col-md-12 col-sm-12">
-                                  Shivaji College is a premier institution in West Delhi, accredited with grade ‘A’ by NAAC. It was established in 1961 by Hon’ble Dr Panjabrao Deshmukh, Union Minister for Agriculture. Shivaji College was ranked as one of the top 10 science colleges of the country in a survey conducted by India Today in 2017. The college offers twenty undergraduate courses in Science, Commerce and Humanities, a self-financing course in Bachelors in Business Economics, three post-graduate courses, and add-on courses in German and French. Various environment friendly practices in the green campus of Shivaji College has attracted the community at large. The logo of Shivaji College symbolizes knowledge and vision of prosperous life for all mankind.
-                                </div>
-<!--About Department of Biochemistry-->
-                                <div class="col-sm-4 col-md-12">
-                                  <h4>ABOUT DEPARTMENT OF BIOCHEMISTRY</h4>
-                                </div>
-                                <div class="col-md-12 col-sm-12" style="text-align: right">
-                                  B.Sc. (Hons.) Biochemistry (University of Delhi) is a three-year degree course offered by the University of Delhi. The intense theoretical classroom experiences are supplemented with well-designed practical exercises. The Biochemistry laboratory is also equipped with several latest equipments. Hence, the students are provided with significant hands-on-training, facilitating them to achieve both conceptual knowledge as well as practical skills. Overall, the curriculum promotes academic, extra-curricular and sociocultural linkages with peers in other colleges and institutions. Successful alumni from this department are now spread across the globe.
-                                </div>
-                                <div class="col-md-12 col-sm-12" style="text-align: right">
-                                  University of Delhi is among the highest ranked Universities in India. An organization of pre-eminence by itself, South Campus constitutes an integral and essential component of this educational organization of national importance. The small but beautiful campus boasts several state-of-the-art life science departments such as Biochemistry, Biophysics, Genetics, Microbiology and Plant Molecular Biology which work with a great deal of synergy. The Department of Biochemistry, one of the most vibrant departments on campus and a premiere Biochemistry department in the country, was established in the year 1983. It has appropriate infrastructure and resources for M.Sc. Biochemistry programme as well as state-of-the-art research laboratories that support Ph.D programme. Academic activities are appropriately supplemented by co-curricular and co-scholastic activities leading to wholesome development of bright minds. The department has specific focus on development of molecular strategies for understanding and combating Human Diseases. The emphasis has been both on basic and applied research. The department has made significant contributions to both teaching and research in India.
+                                <div id="dept" style="display: none">
+                                  <div class="col-sm-4 col-md-12">
+                                    <h4>ABOUT DEPARTMENT OF BIOCHEMISTRY</h4>
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    B.Sc. (Hons.) Biochemistry (University of Delhi) is a three-year degree course offered by the University of Delhi. The intense theoretical classroom experiences are supplemented with well-designed practical exercises. The Biochemistry laboratory is also equipped with several latest equipments. Hence, the students are provided with significant hands-on-training, facilitating them to achieve both conceptual knowledge as well as practical skills. Overall, the curriculum promotes academic, extra-curricular and sociocultural linkages with peers in other colleges and institutions. Successful alumni from this department are now spread across the globe.
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    University of Delhi is among the highest ranked Universities in India. An organization of pre-eminence by itself, South Campus constitutes an integral and essential component of this educational organization of national importance. The small but beautiful campus boasts several state-of-the-art life science departments such as Biochemistry, Biophysics, Genetics, Microbiology and Plant Molecular Biology which work with a great deal of synergy. The Department of Biochemistry, one of the most vibrant departments on campus and a premiere Biochemistry department in the country, was established in the year 1983. It has appropriate infrastructure and resources for M.Sc. Biochemistry programme as well as state-of-the-art research laboratories that support Ph.D programme. Academic activities are appropriately supplemented by co-curricular and co-scholastic activities leading to wholesome development of bright minds. The department has specific focus on development of molecular strategies for understanding and combating Human Diseases. The emphasis has been both on basic and applied research. The department has made significant contributions to both teaching and research in India.
+                                  </div>
                                 </div>
                               </div>
                             </div>
@@ -336,7 +344,6 @@ http://www.templatemo.com/tm-506-tinker
             </div>
         </div>
     </section>
-
 
     <section id="testimonial">
         <div class="container">
@@ -548,6 +555,30 @@ http://www.templatemo.com/tm-506-tinker
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
+    //added javascript to toggle text description
+    var divs = ["intro", "concept", "college", "dept"];
+        var visibleDivId = null;
+        function make_visible(divId) {
+          if(visibleDivId === divId) {
+            visibleDivId = null;
+          } else {
+            visibleDivId = divId;
+          }
+          hideNonVisibleDivs();
+        }
+        function hideNonVisibleDivs() {
+          var i, divId, div;
+          for(i = 0; i < divs.length; i++) {
+            divId = divs[i];
+            div = document.getElementById(divId);
+            if(visibleDivId === divId) {
+              div.style.display = "block";
+            } else {
+              div.style.display = "none";
+            }
+          }
+        }
+    //builtin javascript
     $(document).ready(function() {
         // navigation click actions
         $('.scroll-link').on('click', function(event){
