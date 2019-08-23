@@ -294,6 +294,8 @@ http://www.templatemo.com/tm-506-tinker
                                     <li class="filter" data-filter="branding" onclick="make_visible('concept')"><span>Concept Note</span></li>
                                     <li class="filter" data-filter="graphic" onclick="make_visible('college')"><span>Shivaji College</span></li>
                                     <li class="filter" data-filter="nature" onclick="make_visible('dept')"><span>Department of Biochemistry</span></li>
+                                    <li class="filter" data-filter="abc" onclick="make_visible('organize')"><span>Organizing Committee</span></li>
+                                    <li class="filter" data-filter="cde" onclick="make_visible('advise')"><span>Advisory Board</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -333,6 +335,22 @@ http://www.templatemo.com/tm-506-tinker
                                   </div>
                                   <div class="col-md-12 col-sm-12">
                                     University of Delhi is among the highest ranked Universities in India. An organization of pre-eminence by itself, South Campus constitutes an integral and essential component of this educational organization of national importance. The small but beautiful campus boasts several state-of-the-art life science departments such as Biochemistry, Biophysics, Genetics, Microbiology and Plant Molecular Biology which work with a great deal of synergy. The Department of Biochemistry, one of the most vibrant departments on campus and a premiere Biochemistry department in the country, was established in the year 1983. It has appropriate infrastructure and resources for M.Sc. Biochemistry programme as well as state-of-the-art research laboratories that support Ph.D programme. Academic activities are appropriately supplemented by co-curricular and co-scholastic activities leading to wholesome development of bright minds. The department has specific focus on development of molecular strategies for understanding and combating Human Diseases. The emphasis has been both on basic and applied research. The department has made significant contributions to both teaching and research in India.
+                                  </div>
+                                </div>
+                                <div id="organize" style="display: none; padding: 20% 0">
+                                  <div class="col-sm-4 col-md-12">
+                                    <h4>ABOUT THE ORGANIZING COMMITTEE</h4>
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    orgnizer list
+                                  </div>
+                                </div>
+                                <div id="advise" style="display: none; padding: 20% 0">
+                                  <div class="col-sm-4 col-md-12">
+                                    <h4>ABOUT TH ADVISORY BOARD</h4>
+                                  </div>
+                                  <div class="col-md-12 col-sm-12">
+                                    advisors
                                   </div>
                                 </div>
                               </div>
@@ -571,7 +589,7 @@ biointernational2020@gmail.com before 30 November, 2019. For any queries regardi
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script type="text/javascript">
     //added javascript to toggle text description
-    var divs = ["concept", "college", "dept"];
+    var divs = ["concept", "college", "dept", "organize", "advise"];
         var visibleDivId = null;
         function make_visible(divId) {
           if(visibleDivId === divId) {
