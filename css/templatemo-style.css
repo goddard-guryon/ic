@@ -211,9 +211,9 @@ bootstrap.min.css:5
 	width: 100%;
   	padding-top: 35vh;
   	text-align: center;
-  	background-image: url(../img/banner3.jpg);
+  	background-image: url(../img/Biochem_56.jpg);
     background-color: rgba(0, 0, 0, 0.01);
-    background-size: cover;
+    background-size: 100%;
   	vertical-align: middle;
 }
 
@@ -422,7 +422,7 @@ bootstrap.min.css:5
 
 
 #blog {
-	background-image: url(../img/blog-bg.jpg);
+	background-image: url(../img/DSC_0499.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
