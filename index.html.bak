@@ -312,7 +312,7 @@
                                 <div class="primary-blue-button" style="display: inline"><a onclick="make_visible_schedule('day2')" style="cursor: pointer">Day 2</a></div></center>
                               </div>
                               <div id="college" style="display: none; padding: 15% 0">
-                                  <img src="img/banner1.jpg" width=100%>
+                                  <img src="img/banner1.jpg" width=800>
                                   <div class="col-sm-4 col-md-12">
                                     <h4>ABOUT SHIVAJI COLLEGE</h4>
                                   </div>
@@ -321,7 +321,7 @@
                                   </div>
                                 </div>
                                 <div id="dept" style="display: none; padding-top: 0.1% 0">
-                                  <img src="img/south_campus.jpg" width=100%>
+                                  <img src="img/south_campus.jpg" width=800>
                                   <div class="col-sm-4 col-md-12">
                                     <h4>ABOUT DEPARTMENT OF BIOCHEMISTRY</h4>
                                   </div>

@@ -471,7 +471,7 @@
 @media only screen and (max-device-width: 480px) {
   #dept {
     margin-left: -15px;
-	margin-right: 100px;
+	margin-right: 80px;
   }
   #concept {
     margin-left: -15px;
