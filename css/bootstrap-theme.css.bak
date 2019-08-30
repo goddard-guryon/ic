@@ -468,10 +468,10 @@
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
 }
 /*# sourceMappingURL=bootstrap-theme.css.map */
-@media only screen and (max-device-width: 480px) {
+@media screen and (max-width: 480px) {
   #dept {
     margin-left: -15px;
-	margin-right: 80px;
+	margin-right: 100px;
   }
   #concept {
     margin-left: -15px;
@@ -493,4 +493,12 @@
 #college {
   margin-left: -15px;
   margin-right: 50px;
+}
+@media screen and (min-width: 800px):
+  #move_mid {
+    margin-left: 38%;
+  }
+  #move_right {
+    margin-left: 30%;
+  }
 }
