@@ -472,6 +472,9 @@
   .row {
     width: 100%;
   }
+  #concept, #schedule, #college, #dept, #organize, #advise, #patron {
+    margin-left: 15px;
+  }
   .container {
     padding-right: 0px
   }
