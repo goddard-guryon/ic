@@ -29,11 +29,6 @@ function js_onError(error) {
     show_fail_message();
     setTimeout(function(){window.location = window.location.href}, 5000);
 }
-function dim(bool)
-{
-    if (typeof bool=='undefined') bool=true; // so you can shorten dim(true) to dim()
-    document.getElementById('dimmer').style.display=(bool?'block':'none');
-}
 var sendButton = document.getElementById("form-submit");
 function js_send() {
     sendButton.value='Sending…';
